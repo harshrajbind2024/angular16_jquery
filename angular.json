@@ -32,7 +32,7 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": ["./node_modules/jquery/dist/jquery.min.js"]
           },
           "configurations": {
             "production": {
@@ -100,5 +100,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "1a0760f6-eaa0-452b-84de-19ed1f88d634"
   }
 }
